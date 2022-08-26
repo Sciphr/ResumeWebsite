@@ -159,6 +159,10 @@ a {
     gap: 1em;
   }
 
+  #qualifications--list {
+    padding: 0.3em;
+  }
+
   #profile-pic {
     width: 15em;
     height: 15em;

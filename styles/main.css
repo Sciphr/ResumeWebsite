@@ -249,4 +249,8 @@ input:checked + .slider:before {
   .mode--container {
     margin-left: 70%;
   }
+
+  .mode--container p {
+    visibility: hidden;
+  }
 }

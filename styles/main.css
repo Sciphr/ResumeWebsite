@@ -212,45 +212,68 @@ input:checked + .slider:before {
 
 .mode--container {
   display: flex;
-  position: absolute;
+  position: fixed;
   column-gap: 1em;
   margin-left: 85%;
+  transition: 1s;
 }
 
 .mode--p {
   margin-top: 5px;
+  transition: 1s;
+}
+
+@media (max-width: 1200px) {
+  .mode--container {
+    margin-left: 80%;
+    position: absolute;
+    transition: 1s;
+  }
+
+  .mode--container p {
+    opacity: 0;
+    transition: 1s;
+  }
 }
 
 @media (max-width: 800px) {
   #wrapper--hero {
     flex-direction: column;
     gap: 1em;
+    transition: 1s;
   }
 
   #qualifications--list {
     padding: 0.3em;
+    transition: 1s;
   }
 
   #profile-pic {
     width: 15em;
     height: 15em;
+    transition: 1s;
   }
 
   .section--page {
     padding-top: 1em;
     padding-bottom: 1em;
+    transition: 1s;
   }
 
   .card--work-history {
     border-left: none;
     padding-left: 0;
+    transition: 1s;
   }
 
   .mode--container {
     margin-left: 70%;
+    position: absolute;
+    transition: 1s;
   }
 
   .mode--container p {
-    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
   }
 }

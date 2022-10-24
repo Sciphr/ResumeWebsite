@@ -1,5 +1,4 @@
 function changeFunction() {
-
   if (document.getElementById("check").checked) {
     document.documentElement.style.setProperty("--mainTextColor", "#000");
     document.documentElement.style.setProperty(
@@ -28,15 +27,4 @@ function changeFunction() {
     document.documentElement.style.setProperty("--mainBorderColor", "#2b3031");
     document.documentElement.style.setProperty("--mainBgColor", "#131415");
   }
-
-  // alert(test);
-  // alert(typeof test);
-
-  // alert(rs.getPropertyValue("--mainTextColor"));
 }
-
-// var y = document.getElementById('check');
-
-// y.onchange = function (value) {
-//   alert('Tester');
-// }
